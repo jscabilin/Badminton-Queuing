@@ -141,3 +141,16 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Project-specific secrets and local state
+*.local
+*.pem
+*.key
+*.p12
+.vercel/
+.supabase/
+supabase/.temp/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
